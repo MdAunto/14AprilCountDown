@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,700&display=swap);
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/55/e8/1e/55e81ed4b955587451af5555921d8002.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "poppins",sans-serif;
+    margin: 0 auto;
+}
+h1{
+    color: thistle;
+    padding-top: 20rem;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-top: -25rem;
+    padding-bottom: 25px;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+   color: thistle;
+    font-size: 2rem;
+    line-height:1;
+    margin:0 2rem;
+}
+
+.countdown-ul{
+    text-align: center;
+}
+
+.countdown-ul span{
+    font-size: 1rerm;
+    color: thistle;
+
+}
+
+.card {
+    background-image: url(https://motionarray.imgix.net/preview-54352BSmJgDq7cp_0006.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    margin:0  auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+    transition: .7s ease;
+
+}
+
+.card:hover{
+	transform: scale(1.02);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.4)
+}
+
